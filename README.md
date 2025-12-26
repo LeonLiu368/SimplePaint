@@ -1,19 +1,17 @@
-# SimplePaint (Java AWT/Swing)
+# TypoCommand
 
-Paint app with Microsoft Paint inspired features built with Java AWT/Swing.
+A Java graphics game inspired by classic typing-defense games.  
+Letters fall from the top of the screen, and the player must type them before they reach the cities below.
 
-## Run (no build tool)
-From the project folder:
+Built using **Java AWT/Swing**.
+
+## How to Run
+
+From the project root:
 
 ```bash
-javac -d out src/SimplePaint.java
-java -cp out SimplePaint
-```
+mkdir -p out
+javac -d out src/*.java
+java -cp out src.TypoCommand
 
-## Controls
-- Click the color squares (left) to choose a color (including Custom RGB).
-- Click tool boxes to select Pencil/Brush/Roller/Spray/Eraser/Clear.
-- Line/Circle/Oval/Polygon/Star prompt for settings and draw on drag.
-
-## Notes
-- This uses a `BufferedImage` as a canvas and repaints it onto a Swing `JComponent`.
+If the display is bugged, resize the window. 
