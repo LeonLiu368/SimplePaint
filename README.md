@@ -1,6 +1,5 @@
 # SimplePaint (Java AWT/Swing)
 
-A lightweight paint app built with Java AWT/Swing.
 Paint app with Microsoft Paint inspired features built with Java AWT/Swing.
 
 ## Run (no build tool)
